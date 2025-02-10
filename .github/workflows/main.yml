@@ -42,5 +42,5 @@ jobs:
           file: src/Dockerfile
           push: true
           tags: |
-            eduardomrosa/aula-conversao-temperatura:v1
+            eduardomrosa/aula-conversao-temperatura:${{github.run_number}}
             eduardomrosa/aula-conversao-temperatura:latest
